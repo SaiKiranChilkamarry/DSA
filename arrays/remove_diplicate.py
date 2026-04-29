@@ -4,12 +4,7 @@ Explanation: Total number of unique elements are 3, i.e[1,2,3] and Therefore ret
 Input: arr[]=[1,1,1,2,2,3,3,3,3,4,4]
 Output: [1,2,3,4,_,_,_,_,_,_,_]
 Explanation: Total number of unique elements are 4, i.e[1,2,3,4] and Therefore return 4 after assigning [1,2,3,4] in the beginning of the array.
-
-brute force approch is simple just traverse the array and insert elements into a set,a set cant store a duplicate value after traversal of entire array 
-just convert set into array or if you want to make changes in original arrray replace set elements in 
-array starting from 0 th element and print until size of the set 
-
-time complexity would be o(n)+o(size of set worst case o(n) with no duplicate items in original array also we donot nned to rearrage original array if the size of set is eaquals to size of array)
+lem(arr)>=1
 
 """
 

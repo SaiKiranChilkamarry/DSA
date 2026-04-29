@@ -27,4 +27,7 @@ print("the element that appears only once in an array is ",result)
 """
 time complexity o(n)
 space complexity o(n)
+
+we can optimise space complexity using XOR as any number XOR to itself will be zero and element xor with zero would be that element itself\
+so here space complexity will be o(1) where time complexity remains o(n)
 """

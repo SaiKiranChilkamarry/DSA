@@ -26,3 +26,8 @@ array = [1, 2, 3, 4, 5, 6, 7]
 k=43
 left_rotation(array,len(array),k)
 print(array)
+
+"""
+time complexity o(n)+o(k)
+space complexity o(k) 
+"""

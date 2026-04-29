@@ -34,3 +34,10 @@ def find_largest(array):
 array= [2, 5, 1, 3, 0]
 Largest=find_largest(array)
 print("the largest number in the array found is  ",Largest)
+
+
+"""
+time complexity O(n)
+space complexity O(1)
+
+"""

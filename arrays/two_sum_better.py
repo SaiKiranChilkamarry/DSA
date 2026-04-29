@@ -15,14 +15,17 @@ Hash approch
 def two_sum_hash_approch(array,target):
   hashmap={}
   for i in range(len(array)):
-    compliment = target-array[i]
-    if compliment in hashmap:
-      return[i,hashmap[compliment]]
-    else:
-      hashmap[array[i]]=i
-    
+    complement = target-array[i]
+    if complement in hashmap:
+      return[hashmap[complement],i]
+    hashmap[array[i]]=i
+  return None  
     
 array = [10, 22, 5, 75, 65, 80, 15, 3, 7]
 target = 85
 result=two_sum_hash_approch(array,target)
 print(result)
+
+"""time complexity=o(n)
+  space complexity=o(n) (for hashmap)
+"""

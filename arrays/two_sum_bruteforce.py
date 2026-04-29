@@ -21,8 +21,8 @@ Constraints:
 """
 "Bruteforce approch "
 
-def TwoSumBruteForce(arr,target):
-  for i in range (len(arr)-1):
+def two_sum_brute(arr,target):
+  for i in range (len(arr)):
     for j in range (i+1,len(arr)):
       if arr[i]+arr[j]==target:
         return [i,j]
@@ -30,8 +30,14 @@ def TwoSumBruteForce(arr,target):
 
 array = [10, 22, 5, 75, 65, 80, 15, 3, 7]
 target = 85
-result=TwoSumBruteForce(array,target)
+result=two_sum_brute(array,target)
 print(result)
+
+"""
+Time Complexity = O(n^2)
+space complexity = 0(1)
+
+"""
 
 
 

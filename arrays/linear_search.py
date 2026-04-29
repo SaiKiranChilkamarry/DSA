@@ -33,3 +33,7 @@ if result == -1:
   print("target not found ")
 else :
   print("target found at index",result)
+
+
+#linear search algorithm 
+"timecomplexity o(n),space complexity o(1)"
